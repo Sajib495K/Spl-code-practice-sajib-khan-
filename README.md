@@ -5,7 +5,7 @@ Welcome to my programming practice repository!
 
 ## Student Information
 
-- **Name:**
+- **Name:MD.Sajib Khan**
 - **Student ID:**
 - **Section:**
 - **Course:** CSE 1112
