@@ -1,29 +1,26 @@
 
+
 #include<stdio.h>
-#include<ctype.h>
 int main(){
+char s[100];
+
+printf("enter s[]:\n");
+gets(s);
+int c=0;
+char k='A';
 
 
- char s[]="SAJIB KHAN";
- printf("Upper=%s\n",s);
-
-
-for(int i=0;s[i]!=0;i++)
+for(int i=0;s[i]!='\0';i++)
 {
-     s[i]=tolower(s[i]);
-     //if(s[i]>='A'&&s[i]<='Z')
-    // s[i]=s[i+32];
+  if(s[i]==k)
+  {c++;
+  printf("Found at index=%d\n",i);
+  break;}
+
+
 }
-
-printf("Lower:%s",s);
-
-
-
-
-
-
-
-
+if(c==0)
+{printf("not found\n");}
 
 
 
@@ -32,3 +29,12 @@ printf("Lower:%s",s);
 
 return 0;
 }
+
+
+
+
+
+
+
+
+
